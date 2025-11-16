@@ -32,4 +32,5 @@ public class PizzaService {
     public void delete(Integer idPizza){
         this.pizzaRepository.deleteById(idPizza);
     }
+    
 }
